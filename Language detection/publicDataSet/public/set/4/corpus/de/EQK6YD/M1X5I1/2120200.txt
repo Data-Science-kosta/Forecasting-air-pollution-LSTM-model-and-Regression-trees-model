@@ -1,0 +1,6 @@
+Als kohärentes Radar wird ein Impulsradarsystem bezeichnet, welches mit stabilem Phasenbezug einzelner Sendeimpulse zu einer phasenstabilen Referenzschwingung arbeitet. Dieser stabile Phasenbezug ist nötig, um mit Hilfe eines Phasenvergleichs zwischen zwei oder mehreren Impulsperioden störende Echos von Festzielen wie Geländeerhebungen, Vegetation und Bebauung von den Echos von bewegten Zielen (Schiffe, Fahrzeuge, Personen oder Flugzeuge) unterscheiden zu können.
+Es gibt drei verschiedene Radargerätekonzepte:
+
+nicht kohärentes Radar
+voll kohärentes Radar
+pseudokohärentes Radar.
