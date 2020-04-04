@@ -1,5 +1,5 @@
 # Emotion Classification with TensorFlow
-#This is a fully convolutional neural network that classifies 8 different emotions from a given images.
+##### This is a fully convolutional neural network that classifies 8 different emotions from a given images.
 ### DATA:
 For training this network 2 datsets were used:
 
