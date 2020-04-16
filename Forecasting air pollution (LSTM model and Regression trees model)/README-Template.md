@@ -6,7 +6,7 @@ Links from where the data was collected:
 https://pulse.eco/restapi
 https://darksky.net/dev/docs
 ## MODELS: 
-**2** Models are built. In the first model each station has its own predictor, and in the second model (LSTM model) datasets are concatenated and universal predictor is made.
+**2** Models were built. In the first model each station has its own predictor, and in the second model (LSTM model) datasets are concatenated and universal predictor is made.
 ### 1. model:
 **Preprocessing** - removing or interpolating missing values, transforming categorical data, dropping redundant features.
 **Feature selection** - creating lag, seasonal and statistical features and dropping features that do not have effect on air pollution.
