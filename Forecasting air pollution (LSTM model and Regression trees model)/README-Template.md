@@ -19,7 +19,7 @@ https://darksky.net/dev/docs
 **Feature selection** - creating statistical and seasonal features and dropping features that do not have effect on air pollution, 
 concatenating datasets and handling different categorical features.
 
-**Model selection** - For creating lag features past 7 days were observed, for each hour separately, by the LSTM layer. Data is splitted, schuffled, scaled and reshaped to have proper shape for LSTM layer. The network is trained on Google colaboratory.
+**Model selection** - For creating lag features previous 7 days were observed, for each hour separately, by the LSTM layer. Data is splitted, schuffled, scaled and reshaped to have proper shape for LSTM layer. The network is trained on Google colaboratory.
 
 Loss:
 
