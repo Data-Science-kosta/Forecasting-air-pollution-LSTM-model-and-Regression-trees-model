@@ -15,6 +15,7 @@ https://darksky.net/dev/docs
 **Preprocessing** - removing or interpolating missing values, transforming categorical data, dropping redundant features.
 **Feature selection** - creating statistical and seasonal features and dropping features that do not have effect on air pollution, concatenating datasets and handling different categorical features.
 **Model selection** - For creating lag features past 7 days were observed, for each hour separately, by the LSTM layer. Data is splitted, schuffled, scaled and reshaped to have proper shape for LSTM layer. The network is trained on Google colaboratory.
+
 Loss:
 ![Loss](https://github.com/666KostA666/Data-Science/blob/master/Forecasting%20air%20pollution%20(LSTM%20model%20and%20Regression%20trees%20model)/data/model%20selected%20LSTM/plots/Loss.png)
 Final evaluation:
