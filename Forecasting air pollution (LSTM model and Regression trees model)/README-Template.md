@@ -18,5 +18,6 @@ https://darksky.net/dev/docs
 
 Loss:
 ![Loss](https://github.com/666KostA666/Data-Science/blob/master/Forecasting%20air%20pollution%20(LSTM%20model%20and%20Regression%20trees%20model)/data/model%20selected%20LSTM/plots/Loss.png)
+
 Final evaluation:
 ![Loss](https://github.com/666KostA666/Data-Science/blob/master/Forecasting%20air%20pollution%20(LSTM%20model%20and%20Regression%20trees%20model)/data/model%20selected%20LSTM/plots/Final%20eval.png)
