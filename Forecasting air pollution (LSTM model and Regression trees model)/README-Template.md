@@ -1,88 +1,21 @@
-# Project Title
-
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+# Forecasting concetration of PM10 particles based on weather data
+Building a complete machine learning pipeline that forecasts pollution 12 hours ahead.
+## DATA:
+The data is collected from 8 different stations in Macedonia.
+Links from where the data was collected:
+https://pulse.eco/restapi
+https://darksky.net/dev/docs
+## MODELS: 
+**2** Models are built. In the first model each station has its own predictor, and in the second model (LSTM model) datasets are concatenated and universal predictor is made.
+### 1. model:
+**Preprocessing** - removing or interpolating missing values, transforming categorical data, dropping redundant features.
+**Feature selection** - creating lag, seasonal and statistical features and dropping features that do not have effect on air pollution.
+**Model selection** - 3 models were built for each station (Linear regressor, Extra treees regressor, XGBoost regressor)
+### 2. model:
+**Preprocessing** - removing or interpolating missing values, transforming categorical data, dropping redundant features.
+**Feature selection** - creating statistical and seasonal features and dropping features that do not have effect on air pollution, concatenating datasets and handling different categorical features.
+**Model selection** - For creating lag features past 7 days were observed, for each hour separately, by the LSTM layer. Data is splitted, schuffled, scaled and reshaped to have proper shape for LSTM layer. The network is trained on Google colaboratory.
+Loss:
+![Loss](https://github.com/666KostA666/Data-Science/blob/master/Forecasting%20air%20pollution%20(LSTM%20model%20and%20Regression%20trees%20model)/data/model%20selected%20LSTM/plots/Loss.png)
+Final evaluation:
+![Loss](https://github.com/666KostA666/Data-Science/blob/master/Forecasting%20air%20pollution%20(LSTM%20model%20and%20Regression%20trees%20model)/data/model%20selected%20LSTM/plots/Final%20eval.png)
