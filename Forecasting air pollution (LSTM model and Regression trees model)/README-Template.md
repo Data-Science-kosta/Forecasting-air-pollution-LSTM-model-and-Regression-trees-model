@@ -1,5 +1,5 @@
 # Forecasting concetration of PM10 particles based on weather data
-Building a complete Machine Learning pipeline for forecasting pollution 12 hours ahead.
+Building a complete Machine Learning pipeline for forecasting air pollution 12 hours ahead.
 ## DATA:
 The data is collected from 8 different stations in Macedonia.
 Links from where the data was collected:
