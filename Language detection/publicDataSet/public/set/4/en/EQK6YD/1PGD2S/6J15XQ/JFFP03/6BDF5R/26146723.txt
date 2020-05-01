@@ -1,2 +1,0 @@
-VESA Stereo is a liquid crystal shutter glasses interface standard by the Video Electronics Standards Association (VESA) for stereoscopic 3D displays. The system does not drive the glasses directly, instead providing a basic signal and power to be used by other electronics either inside the glasses or in  an external unit.
-The VESA Stereo connector has been extensively used in 3D accelerators as well as 3D DLP TVs.

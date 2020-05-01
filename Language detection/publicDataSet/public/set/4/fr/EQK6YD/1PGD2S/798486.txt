@@ -1,2 +1,0 @@
-Une chambre d'écho est un dispositif électromécanique ou électronique qui ajoute au signal électrique une ou plusieurs copies de ce signal avec un retard, se répétant de manière décroissante.
-En traitement du son, ce dispositif produit un effet (le delay) rappelant un écho acoustique.

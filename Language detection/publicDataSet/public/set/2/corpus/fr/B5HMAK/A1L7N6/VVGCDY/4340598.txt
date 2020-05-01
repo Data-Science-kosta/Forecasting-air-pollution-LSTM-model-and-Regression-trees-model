@@ -1,3 +1,0 @@
-Winpooch (Winpooch Watchdog) était un projet de logiciel contrôleur d’activité pour Windows (2000/XP/2003) publié sous licence GNU GPL.
-La dernière version a été publiée en avril 2007 et intègre une protection antivirus en temps réel basée sur le moteur et la base de données virale de ClamAV.
-Le développement a officiellement été abandonné le 13 juin 2008[réf. souhaitée].

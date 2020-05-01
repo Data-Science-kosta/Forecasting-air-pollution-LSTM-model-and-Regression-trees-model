@@ -1,2 +1,0 @@
-@@DATASET_DIR@@\3\corpus
-@@DATASET_DIR@@\3\sequences.txt

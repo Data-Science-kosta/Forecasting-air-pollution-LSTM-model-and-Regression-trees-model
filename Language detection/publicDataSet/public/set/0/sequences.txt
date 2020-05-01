@@ -1,7 +1,0 @@
-aAa
-bbbbbb
-xxxx
-qQq
-yy
-invalid text sequence
-~~~~
