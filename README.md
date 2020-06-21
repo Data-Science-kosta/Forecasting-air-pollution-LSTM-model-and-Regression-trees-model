@@ -28,3 +28,5 @@ Loss:
 Final evaluation:
 
 ![Loss](https://github.com/Data-Science-kosta/Forecasting-air-pollution-LSTM-model-and-Regression-trees-model/blob/master/data/model%20selected%20LSTM/plots/Final%20eval.png)
+
+I could not reduce MAE more because the data is very noisy and same inputs are mapping to different outputs
